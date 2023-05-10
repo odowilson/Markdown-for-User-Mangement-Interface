@@ -1,0 +1,135 @@
+/* Top of Screen */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #2196F3;
+  padding: 0 20px;
+}
+
+.new-user-btn {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  background-color: #2196F3;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.new-user-btn:hover {
+  background-color: #0D47A1;
+}
+
+.hide-disabled-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+}
+
+.hide-disabled-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.save-user-btn {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  background-color: #BDBDBD;
+  border: none;
+  cursor: not-allowed;
+  padding: 10px;
+}
+
+/* User Account Table */
+.user-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+.user-table th {
+  background-color: #2196F3;
+  color: white;
+  font-weight: normal;
+  padding: 8px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.user-table th span {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.user-table th i {
+  margin-left: 5px;
+}
+
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* New User Account Form */
+.new-user-form {
+  display: flex;
+  margin-top: 20px;
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.new-user-form h2 {
+  margin: 0;
+  background-color: #BDBDBD;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+.new-user-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.new-user-form input[type="text"], .new-user-form input[type="email"], .new-user-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.new-user-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.new-user-form button[type="submit"] {
+  font-size: 18px;
+  color: white;
+  background-color: #2196F3;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: auto;
+  display: block;
+}
+
+.new-user-form button[type="submit"]:hover {
+  background-color: #0D47A1;
+}
